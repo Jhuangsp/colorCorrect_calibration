@@ -30,3 +30,10 @@
 *.exe
 *.out
 *.app
+
+
+whiteBalance_calibration/whiteBalance_calibration/calib*
+whiteBalance_calibration/whiteBalance_calibration/dataset/*
+whiteBalance_calibration/.vs/*
+whiteBalance_calibration/whiteBalance_calibration/x64
+whiteBalance_calibration/x64/*

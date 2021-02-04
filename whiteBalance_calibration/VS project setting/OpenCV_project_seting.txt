@@ -1,0 +1,11 @@
+Other Include dir:
+C:\opencv\build\include;
+
+Other library dir:
+C:\opencv\build\x64\vc15\lib;
+
+Other dependency:
+opencv_world349d.lib;
+
+Pos-building command:
+xcopy /y /d "C:\opencv\build\x64\vc15\bin\opencv_world349d.dll" "$(OutDir)"

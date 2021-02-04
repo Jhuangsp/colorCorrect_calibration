@@ -1,0 +1,17 @@
+Other Include dir:
+.\VimbaC\Include;.\VimbaCPP\Include;.\VimbaImageTransform\Include;
+C:\Program Files\Allied Vision\Vimba_3.1;
+
+Other library dir:
+.\VimbaC\Lib\Win64;.\VimbaCPP\Lib\Win64;.\VimbaImageTransform\Lib\Win64;
+C:\Program Files\Allied Vision\Vimba_3.1\VimbaImageTransform\Lib\Win64;
+C:\Program Files\Allied Vision\Vimba_3.1\VimbaC\Lib\Win64;
+C:\Program Files\Allied Vision\Vimba_3.1\VimbaCPP\Lib\Win64;
+
+Other dependency:
+VimbaC.lib;VimbaCPP.lib;VimbaImageTransform.lib;
+
+Pos-building command:
+xcopy /y /d "C:\Program Files\Allied Vision\Vimba_3.1\VimbaC\Bin\Win64\VimbaC.dll" "$(OutDir)"
+xcopy /y /d "C:\Program Files\Allied Vision\Vimba_3.1\VimbaCPP\Bin\Win64\VimbaCPP.dll" "$(OutDir)"
+xcopy /y /d "C:\Program Files\Allied Vision\Vimba_3.1\VimbaImageTransform\Bin\Win64\VimbaImageTransform.dll" "$(OutDir)"
